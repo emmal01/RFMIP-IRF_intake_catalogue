@@ -33,7 +33,7 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  HadGEM3:
+ HadGEM3:
     description: HadGEM3-GC31-LL
     args:
       path: "{{CATALOG_DIR}}/HadGEM3.yml”
