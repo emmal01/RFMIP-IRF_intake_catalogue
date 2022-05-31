@@ -5,11 +5,7 @@ plugins:
     - module: intake_xarray
 
 sources:
-  
-  
-  
-  
-  :
+  rlu:
     driver: opendap
     args:
       auth: null
