@@ -1,0 +1,33 @@
+description: "HadGEM3 (HadGEM3-GC31-LL) p1f2 rad-irf data catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  rsu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p1f2/Efx/rsu/gn/v20190605/rsu_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p1f2_gn.nc
+
+  rsd:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p1f2/Efx/rsd/gn/v20190605/rsd_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p1f2_gn.nc
+  rlu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p1f2/Efx/rlu/gn/v20190605/rlu_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p1f2_gn.nc
+
+  rld:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p1f2/Efx/rld/gn/v20190605/rld_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p1f2_gn.nc
