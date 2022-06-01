@@ -5,14 +5,14 @@ plugins:
     - module: intake_xarray
 
 sources:
-  GISS-E2:
+  GISS_E2:
     description: GISS-E2-1-G
     args:
       path: "{{CATALOG_DIR}}/GISS-E2.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  GISS-E3:
+  GISS_E3:
     description: GISS-E3-G
     args:
       path: "{{CATALOG_DIR}}/GISS-E3.yml"
@@ -33,7 +33,7 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
   
-  RTE-RRTMGP:
+  RTE_RRTMGP:
     description: RTE-RRTMGP-181204
     args:
       path: "{{CATALOG_DIR}}/RTE-RRTMGP.yml”
