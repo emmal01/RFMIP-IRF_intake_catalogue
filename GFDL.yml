@@ -1,1 +1,13 @@
+description: "GFDL (GFDL-CM4) rad-irf data catalog"
 
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  p1f2:
+    description: GFDL-CM4 p1f2
+    args:
+      path: "{{CATALOG_DIR}}/LBLRTM-p1f2.yml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
