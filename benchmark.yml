@@ -26,13 +26,6 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  GFDL:
-    description: GFDL-CM4
-    args:
-      path: "{{CATALOG_DIR}}/GFDL.yml”
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-  
   HadGEM3:
     description: HadGEM3-GC31-LL
     args:
