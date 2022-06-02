@@ -8,6 +8,6 @@ sources:
   p1f2:
     description: GFDL-CM4 p1f2
     args:
-      path: "{{CATALOG_DIR}}/LBLRTM-p1f2.yml"
+      path: "{{CATALOG_DIR}}/GFDL-p1f2.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
