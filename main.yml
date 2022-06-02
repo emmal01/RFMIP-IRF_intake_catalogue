@@ -32,7 +32,7 @@ sources:
      description: generic
      driver: opendap
      args:
-      urlpath: https://{{url_root}}/RFMIP/{{source}}/{{model}}/rad-irf/r1i1p{{phys_index}}f{{force_index}}/Efx/{{var}}/gn/{{version}}/{{var}}_Efx_{{model}}_rad-irf_r1i1p1f1_gn.nc
+      urlpath: https://{{url_root}}/RFMIP/{{source}}/{{model}}/rad-irf/r1i1p{{phys_index}}f{{force_index}}/Efx/{{var}}/gn/{{version}}/{{var}}_Efx_{{model}}_rad-irf_r1i1p{{phys_index}}f{{force_index}}_gn.nc
       auth: null
       chunks: {}
      parameters:
