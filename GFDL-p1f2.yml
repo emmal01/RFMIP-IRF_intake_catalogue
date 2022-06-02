@@ -1,0 +1,31 @@
+description: "GFDL (GFDL-CM4) p1f2 rad-irf data catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  rlu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgdata.gfdl.noaa.gov/thredds/dodsC/gfdl_dataroot4/RFMIP/NOAA-GFDL/GFDL-CM4/rad-irf/r1i1p1f2/Efx/rlu/gn/v20180701/rlu_Efx_GFDL-CM4_rad-irf_r1i1p1f2_gn.nc
+  rld:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgdata.gfdl.noaa.gov/thredds/dodsC/gfdl_dataroot4/RFMIP/NOAA-GFDL/GFDL-CM4/rad-irf/r1i1p1f2/Efx/rld/gn/v20180701/rld_Efx_GFDL-CM4_rad-irf_r1i1p1f2_gn.nc
+  rsu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgdata.gfdl.noaa.gov/thredds/dodsC/gfdl_dataroot4/RFMIP/NOAA-GFDL/GFDL-CM4/rad-irf/r1i1p1f2/Efx/rsu/gn/v20180701/rsu_Efx_GFDL-CM4_rad-irf_r1i1p1f2_gn.nc
+  rsd:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgdata.gfdl.noaa.gov/thredds/dodsC/gfdl_dataroot4/RFMIP/NOAA-GFDL/GFDL-CM4/rad-irf/r1i1p1f2/Efx/rsd/gn/v20180701/rsd_Efx_GFDL-CM4_rad-irf_r1i1p1f2_gn.nc
