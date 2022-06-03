@@ -5,6 +5,13 @@ plugins:
     - module: intake_xarray
 
 sources:
+  CanESM5:
+    description: CanESM5
+    args:
+      path: "{{CATALOG_DIR}}/CanESM5.yml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+    
   GISS_E2:
     description: GISS-E2-1-G
     args:
