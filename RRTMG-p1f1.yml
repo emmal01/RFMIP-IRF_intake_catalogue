@@ -1,0 +1,31 @@
+description: "RRTMG (RRTMG-SW-4-02, RRTMG-LW-4-91) p1f1 rad-irf data catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  rsu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/AER/RRTMG-SW-4-02/rad-irf/r1i1p1f1/Efx/rsu/gn/v20200110/rsu_Efx_RRTMG-SW-4-02_rad-irf_r1i1p1f1_gn.nc
+  rsd:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/AER/RRTMG-SW-4-02/rad-irf/r1i1p1f1/Efx/rsd/gn/v20200110/rsd_Efx_RRTMG-SW-4-02_rad-irf_r1i1p1f1_gn.nc
+  rlu:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/AER/RRTMG-LW-4-91/rad-irf/r1i1p1f1/Efx/rlu/gn/v20200110/rlu_Efx_RRTMG-LW-4-91_rad-irf_r1i1p1f1_gn.nc
+  rld:
+    driver: opendap
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/AER/RRTMG-LW-4-91/rad-irf/r1i1p1f1/Efx/rld/gn/v20200110/rld_Efx_RRTMG-LW-4-91_rad-irf_r1i1p1f1_gn.nc
