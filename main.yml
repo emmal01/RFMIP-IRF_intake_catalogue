@@ -5,7 +5,6 @@ plugins:
     - module: intake_xarray
 
 sources:
-
   inputs:
     description: Atmospheric conditions for rad-irf
     driver: opendap
@@ -66,4 +65,3 @@ sources:
         type: str
         default: rlu
         allowed: [rlu, rld, rsu, rsd]
-
