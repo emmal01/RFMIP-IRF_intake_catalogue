@@ -29,6 +29,6 @@ sources:
   HadGEM3:
     description: HadGEM3-GC31-LL
     args:
-      path: "{{CATALOG_DIR}}/HadGEM3.yml”
+      path: "{{CATALOG_DIR}}/HadGem3.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
