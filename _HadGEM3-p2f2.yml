@@ -11,12 +11,6 @@ sources:
       auth: null
       chunks: {}
       urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p2f2/Efx/rsu/gn/v20190605/rsu_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p2f2_gn.nc
-  rsd:
-    driver: opendap
-    args:
-      auth: null
-      chunks: {}
-      urlpath: https://esgf3.dkrz.de/thredds/dodsC/cmip6/RFMIP/MOHC/HadGEM3-GC31-LL/rad-irf/r1i1p2f2/Efx/rsd/gn/v20190605/rsd_Efx_HadGEM3-GC31-LL_rad-irf_r1i1p2f2_gn.nc
   rlu:
     driver: opendap
     args:
