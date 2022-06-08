@@ -51,7 +51,7 @@ sources:
         description: physics index
         default: 1         
         type: int
-         allowed: [1, 2, 3]
+        allowed: [1, 2, 3]
       force_index:
         description: forcing index
         default: 1
