@@ -32,5 +32,3 @@ sources:
       path: "{{CATALOG_DIR}}/HadGEM3.yml”
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
-
- 
