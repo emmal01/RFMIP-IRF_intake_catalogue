@@ -32,7 +32,7 @@ sources:
       path: "{{CATALOG_DIR}}/GFDL.yml”
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
- 
+
   MIROC6:
     description: MIROC6
     args:
