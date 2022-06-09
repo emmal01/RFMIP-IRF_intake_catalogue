@@ -1,4 +1,4 @@
-description: "paramterized rad-irf data catalog"
+description: "parameterized rad-irf data catalog"
 
 plugins:
   source:
@@ -36,6 +36,6 @@ sources:
   GFDL:
     description: GFDL-CM4
     args:
-      path: "{{CATALOG_DIR}}/GFDL.yml”
+      path: "{{CATALOG_DIR}}/GFDL.yml"
     driver: intake.catalog.local.YAMLFileCatalog
-   metadata: {}
+    metadata: {}
