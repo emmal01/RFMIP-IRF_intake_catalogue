@@ -39,3 +39,10 @@ sources:
       path: "{{CATALOG_DIR}}/GFDL.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+  RTE_RRTMGP:
+    description: RTE-RRTMGP-181204
+    args:
+      path: "{{CATALOG_DIR}}/RTE_RRTMGP.yml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
