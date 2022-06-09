@@ -39,17 +39,3 @@ sources:
       path: "{{CATALOG_DIR}}/MIROC6.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
-
-  RRTMG:
-    description: RRTMG-SW-4-02, RRTMG-LW-4-91
-    args:
-      path: "{{CATALOG_DIR}}/RRTMG.yml”
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-  
-  RTE_RRTMGP:
-    description: RTE-RRTMGP-181204
-    args:
-      path: "{{CATALOG_DIR}}/RTE-RRTMGP.yml”
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
