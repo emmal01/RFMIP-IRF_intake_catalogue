@@ -7,6 +7,7 @@ plugins:
 sources:
   p1f1:
     description: 4AOP-v1-5 p1f1
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/4AOP-v1-5-p1f1.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -14,6 +15,7 @@ sources:
 
   p1f2:
     description: 4AOP-v1-5 p1f2
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/4AOP-v1-5-p1f2.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -21,6 +23,7 @@ sources:
 
   p1f3:
     description: 4AOP-v1-5 p1f3
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/4AOP-v1-5-p1f3.yml"
     driver: intake.catalog.local.YAMLFileCatalog
