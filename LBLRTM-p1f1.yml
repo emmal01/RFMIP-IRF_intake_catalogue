@@ -7,6 +7,7 @@ plugins:
 sources:
   rlu:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
@@ -14,6 +15,7 @@ sources:
 
   rld:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
@@ -21,6 +23,7 @@ sources:
 
   rsu:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
@@ -28,6 +31,7 @@ sources:
 
   rsd:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
