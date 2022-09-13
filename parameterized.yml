@@ -7,6 +7,7 @@ plugins:
 sources:
   CanESM5:
     description: CanESM5
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/CanESM5.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -14,6 +15,7 @@ sources:
     
   GISS_E2:
     description: GISS-E2-1-G
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/GISS-E2.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -21,6 +23,7 @@ sources:
 
   GISS_E3:
     description: GISS-E3-G
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/GISS-E3.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -28,6 +31,7 @@ sources:
 
   MIROC6:
     description: MIROC6
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/MIROC6.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -35,6 +39,7 @@ sources:
     
   GFDL:
     description: GFDL-CM4
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/GFDL.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -42,6 +47,7 @@ sources:
 
   RTE_RRTMGP:
     description: RTE-RRTMGP-181204
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/RTE_RRTMGP.yml"
     driver: intake.catalog.local.YAMLFileCatalog
