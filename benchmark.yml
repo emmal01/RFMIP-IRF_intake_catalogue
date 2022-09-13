@@ -31,4 +31,5 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/HadGem3.yml"
     driver: intake.catalog.local.YAMLFileCatalog
+    engine: netcdf4
     metadata: {}
