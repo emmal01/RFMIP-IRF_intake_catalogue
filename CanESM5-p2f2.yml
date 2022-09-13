@@ -7,24 +7,28 @@ plugins:
 sources:
   rsu:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
       urlpath: https://crd-esgf-drc.ec.gc.ca/thredds/dodsC/esgG_dataroot/AR6/CMIP6/RFMIP/CCCma/CanESM5/rad-irf/r1i1p2f2/Efx/rsu/gn/v20190429/rsu_Efx_CanESM5_rad-irf_r1i1p2f2_gn.nc
   rsd:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
       urlpath: https://crd-esgf-drc.ec.gc.ca/thredds/dodsC/esgG_dataroot/AR6/CMIP6/RFMIP/CCCma/CanESM5/rad-irf/r1i1p2f2/Efx/rsd/gn/v20190429/rsd_Efx_CanESM5_rad-irf_r1i1p2f2_gn.nc
   rlu:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
       urlpath: https://crd-esgf-drc.ec.gc.ca/thredds/dodsC/esgG_dataroot/AR6/CMIP6/RFMIP/CCCma/CanESM5/rad-irf/r1i1p2f2/Efx/rlu/gn/v20190429/rlu_Efx_CanESM5_rad-irf_r1i1p2f2_gn.nc
   rld:
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
