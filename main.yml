@@ -8,6 +8,7 @@ sources:
   inputs:
     description: Atmospheric conditions for rad-irf
     driver: opendap
+    engine: netcdf4
     args:
       auth: null
       chunks: {}
@@ -15,6 +16,7 @@ sources:
       
   benchmark:
     description: benchmark rad-irf models
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/benchmark.yml"
     driver: intake.catalog.local.YAMLFileCatalog
@@ -22,6 +24,7 @@ sources:
 
   parameterized:
     description: parameterized rad-irf models
+    engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/parameterized.yml"
     driver: intake.catalog.local.YAMLFileCatalog
