@@ -13,7 +13,7 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  4AOP:
+  _4AOP:
     description: 4AOP-v1-5
     engine: netcdf4
     args:
