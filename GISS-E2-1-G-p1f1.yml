@@ -22,9 +22,9 @@ sources:
   rsu:
     driver: netcdf
     args:
-      urlpath: data/rsu_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rsu_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc"
   rsd:
     driver: netcdf
     args:
-      urlpath: data/rsu_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rsd_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc"
  

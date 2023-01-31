@@ -5,23 +5,23 @@ plugins:
     - module: intake_xarray
 
 sources:
- rlu:
+  rlu:
     driver: netcdf
     args:
-      urlpath: data/rlu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rlu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc"
 
- rld:
+  rld:
     driver: netcdf
     args:
-      urlpath: data/rlu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rld_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc"
  
- rsu:
+  rsu:
     driver: netcdf
     args:
-      urlpath: data/rsu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rsu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc"
 
- rsd:
+  rsd:
     driver: netcdf
     args:
-      urlpath: data/rsu_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc
+      urlpath: "{{CATALOG_DIR}}/data/rsd_Efx_GISS-E3-G_rad-irf_r1i1p1f1_gn.nc"
  
