@@ -1,0 +1,30 @@
+description: "GISS-E2-1-G p1f1 rad-irf data catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  rlu:
+    driver: opendap
+    engine: netcdf4
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf-data1.llnl.gov/thredds/dodsC/css03_data/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/rad-irf/r1i1p1f1/Efx/rlu/gn/v20191230/rlu_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc
+  rld:
+    driver: opendap
+    engine: netcdf4
+    args:
+      auth: null
+      chunks: {}
+      urlpath: https://esgf-data1.llnl.gov/thredds/dodsC/css03_data/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/rad-irf/r1i1p1f1/Efx/rld/gn/v20191230/rld_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc
+  rsu:
+    driver: netcdf
+    args:
+      urlpath: "{{CATALOG_DIR}}/data/rsu_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc"
+  rsd:
+    driver: netcdf
+    args:
+      urlpath: "{{CATALOG_DIR}}/data/rsd_Efx_GISS-E2-1-G_rad-irf_r1i1p1f1_gn.nc"
+ 

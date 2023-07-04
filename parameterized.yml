@@ -29,6 +29,14 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
+  HadGEM3:
+    description: HadGEM3-GCM
+    engine: netcdf4
+    args:
+      path: "{{CATALOG_DIR}}/HadGEM3.yml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+    
   MIROC6:
     description: MIROC6
     engine: netcdf4
@@ -42,6 +50,14 @@ sources:
     engine: netcdf4
     args:
       path: "{{CATALOG_DIR}}/GFDL.yml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  RRTMG:
+    description: RRTMG
+    engine: netcdf4
+    args:
+      path: "{{CATALOG_DIR}}/RRTMG.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
